@@ -1,0 +1,23 @@
+h1 {
+color: black;
+}
+.menu li {
+list-style: none;
+padding: 5px;
+display: inline-block;
+}
+.desafio1 {
+color: black;
+}
+.piedepagina {
+background-color: rgb(185, 184, 184);
+}
+body {
+text-align: center;
+}
+footer {
+padding: 30px;
+}
+header{
+    background-color: pink;
+}
