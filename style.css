@@ -1,23 +1,154 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+}
+
+.header__logo {
+  text-align: left;
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: rgb(8, 204, 25);
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10 px rgba(0,0,0,0.3);
+  z-index: 100;
+  }
+
+.btn-wsp:hover{
+  text-decoration: none;
+  color: rgb(8, 204, 25);
+  background: white;
+
+
+}
+.header__menu li {
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  width: 10rem;
+  border: solid black;
+  border-radius: 20px;
+}
+.header__menu li a {
+  text-decoration: none;
+  color: black;
+}
+.principal__img {
+  border-radius: 2%;
+}
+.principal__texto1 {
+  color: black;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 2rem;
+  width: 950px;
+}
+
 h1 {
-color: black;
+  color: black;
 }
-.menu li {
-list-style: none;
-padding: 5px;
-display: inline-block;
+
+.texto2 {
+  width: auto;
+
 }
-.desafio1 {
-color: black;
-}
-.piedepagina {
-background-color: rgb(185, 184, 184);
-}
+
 body {
-text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  background-color: rgb(247, 232, 213);
+
 }
+
 footer {
-padding: 30px;
+  padding: 30px;
+  background-color: rgb(185, 184, 184);
 }
-header{
-    background-color: pink;
+
+div {
+  padding: 10px;
+  margin-bottom: 0px;
 }
+
+.principal__imagenes {
+ display: inline-block;
+}
+
+.principal__imagenes2{
+  display: inline-block;
+}
+
+
+.formulario{
+  background-color: rgb(185, 184, 184);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 250px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+form {
+  width: 450;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  margin-top: 20px;
+  border-radius: 7px;
+  border: solid black;
+}
+
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-size: 17px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  min-width: 400px;
+  max-height: 200px;
+  max-width: 800px;
+}
+
+.button {
+  background: #31384a;
+  color: #fff;
+  padding: 10px;
+}
+.button:hover {
+  cursor: pointer;
+  
+}
+
+p{
+  margin-bottom: 5rem;
+  width: 950px;
+  color: black;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 2rem;
+
+}
+  

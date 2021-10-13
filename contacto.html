@@ -2,63 +2,87 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>contacto</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RGZAltamoda</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <img src="img/log.png" alt="" />
-    <nav class="menu">
-      <ul>
-        <li><a href="./index.html">inicio</a></li>
-        <li><a href="./novias.html">novias</a></li>
-        <li><a href="./madrinas.html">madrinas</a></li>
-        <li><a href="./fiesta.html">fiesta</a></li>
-        <li><a href="./contacto.html">contacto</a></li>
-      </ul>
-      <a href="https://api.whatsapp.com/send?phone=+5493516066789"><img src="/img/logos/WhatsApp_Logo_1.png"
-          alt="Contactanos"></a>
-    </nav>
+  <header class="header">
+    <div class="header__logo">
+      <img src="img/LogoMakr-0WdLz5.png" alt="" />
+    </div>
+    <div class="header__contactanos">
+      <a href="https://api.whatsapp.com/send?phone=+5493516066789" class="btn-wsp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <div>
+      <nav class="header__menu">
+        <ul>
+          <li><a href="./index.html">inicio</a></li>
+          <li><a href="./novias.html">novias</a></li>
+          <li><a href="./madrinas.html">madrinas</a></li>
+          <li><a href="./fiesta.html">fiesta</a></li>
+          <li><a href="./contacto.html">contacto</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <section>
-    <form action="">
-      <fieldset>
-        <legend>contacto</legend>
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" placeholder="escriba aqui su nombre">
-        <br>
-        <label for="apellido">Apellido</label>
-        <input type="text" name="apellido" id="apellido">
-        <br>
-        <label for="e-mail">e-mail</label>
-        <input type="text" name="e-mail" id="e-mail">
-        <div>Acepta términos y condiciones
-          <input type="checkbox" name="acepta" value="1" />
-        </div>
-        <select name="vestidos" id="vestidos">
-          <option>Novias</option>
-          <option>Madrinas</option>
-          <option>Fiesta</option>
-        </select>
-        <br>
-        <label for="mensaje">Mensaje</label>
-        <br>
-        <textarea name="mensajes" id="mensaje" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="ENVIAR">
-        <input type="reset" value="limpiar formulario">
-      </fieldset>
+    <form class="formulario" action="">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" placeholder="Escriba aqui su nombre">
+      <label for="apellido">Apellido</label>
+      <input type="text" name="apellido" placeholder="Escriba aqui su apellido" id="apellido">
+      <label for="e-mail">E-mail</label>
+      <input type="text" name="e-mail" placeholder="Escriba aqui su direccion de correo" id="e-mail">
+      <span>Acepta los terminos y condiciones
+        <input type="checkbox" name="acepta" value="1" />
+      </span>
+      <label for="mensaje">Busco vestido de:</label>
+      <select name="vestidos" id="vestidos">
+        <option>Novias</option>
+        <option>Madrinas</option>
+        <option>Fiesta</option>
+      </select>
+      <textarea name="mensajes" id="mensaje" cols="30" rows="10" placeholder="Escriba aqui su mensaje"></textarea>
+      <input type="submit" value="Enviar" class="button">
+      <input type="reset" value="Limpiar formulario" class="button">
     </form>
   </section>
-  <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=juan%20g%20posse%20y%20caraffa&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">custom google maps for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
-  <footer class="piedepagina">
-    <a href=""><img src="" alt="instagram"></a>
-    <a href=""><img src="" alt="Facebook"></a>
-    <a href=""><img src="" alt="twitter"></a>
+  <div class="mapouter">
+    <h1>Encontranos en:</h1>
+    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=juan%20g%20posse%20y%20caraffa&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+        href="https://123movies-to.org"></a><br>
+      <style>
+        .mapouter {
+          position: relative;
+          text-align: right;
+          height: 500px;
+          width: 600px;
+        }
+      </style><a href="https://www.embedgooglemap.net">custom google maps for website</a>
+      <style>
+        .gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          height: 400px;
+          width: 965px;
+        }
+      </style>
+    </div>
+  </div>
+  <footer class="">
+    <a href=""><i class="fab fa-facebook-square"></i></a>
+    <a href=""><i class="fab fa-instagram-square"></i></a>
+    <a href=""><i class="fab fa-twitter-square"></i></a>
     © Copyright 2021 RGZAltamoda | Creada por HermannZanetti
   </footer>
 
