@@ -14,23 +14,28 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__logo">
-      <img src="img/LogoMakr-0WdLz5.png" alt="" />
-    </div>
+  <header>
     <div class="header__contactanos">
-      <a href="https://api.whatsapp.com/send?phone=+5493516066789" class="btn-wsp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=+5493516066789" class="btn-wsp"><i class="fab fa-whatsapp"></i></a">
     </div>
-    <div>
-      <nav class="header__menu">
-        <ul>
-          <li><a href="./index.html">inicio</a></li>
-          <li><a href="./novias.html">novias</a></li>
-          <li><a href="./madrinas.html">madrinas</a></li>
-          <li><a href="./fiesta.html">fiesta</a></li>
-          <li><a href="./contacto.html">contacto</a></li>
-        </ul>
-      </nav>
+    <div class="container">
+      <div class="row">
+        <a class="nav__link" class="logo" href="./index.html"><img src="img/LogoMakr-0WdLz5.png" alt="logo" /></a>
+        <nav>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="./index.html">inicio</a class="nav__link"></li
+              class="nav_item">
+            <li class="nav__item"><a class="nav__link" href="./novias.html">novias</a class="nav__link"></li
+              class="nav_item">
+            <li class="nav__item"><a class="nav__link" href="./madrinas.html">madrinas</a class="nav__link"></li
+              class="nav_item">
+            <li class="nav__item"><a class="nav__link" href="./fiesta.html">fiesta</a class="nav__link"></li
+              class="nav_item">
+            <li class="nav__item"><a class="nav__link" href="./contacto.html">contacto</a class="nav__link"></li
+              class="nav_item">
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <section>
@@ -55,35 +60,29 @@
       <input type="reset" value="Limpiar formulario" class="button">
     </form>
   </section>
-  <div class="mapouter">
-    <h1>Encontranos en:</h1>
-    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
-        src="https://maps.google.com/maps?q=juan%20g%20posse%20y%20caraffa&t=&z=17&ie=UTF8&iwloc=&output=embed"
-        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-        href="https://123movies-to.org"></a><br>
-      <style>
-        .mapouter {
-          position: relative;
-          text-align: right;
-          height: 500px;
-          width: 600px;
-        }
-      </style><a href="https://www.embedgooglemap.net">custom google maps for website</a>
-      <style>
-        .gmap_canvas {
-          overflow: hidden;
-          background: none !important;
-          height: 400px;
-          width: 965px;
-        }
-      </style>
+  <footer class="footer">
+    <div class="footer-sm">
+      <div class="container">
+        <div class="row footer-sm__icons">
+          <div class="col">
+            <div class="col">Buscanos en las redes</div>
+            <a href=""><i class="fab fa-facebook-square"></i></a class="nav__link">
+            <a href=""><i class="fab fa-instagram-square"></i></a class="nav__link">
+            <a href=""><i class="fab fa-twitter-square"></i></a class="nav__link">
+
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <footer class="">
-    <a href=""><i class="fab fa-facebook-square"></i></a>
-    <a href=""><i class="fab fa-instagram-square"></i></a>
-    <a href=""><i class="fab fa-twitter-square"></i></a>
-    © Copyright 2021 RGZAltamoda | Creada por HermannZanetti
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row footer-bottom__copyright">
+          <div class="col">
+            &copy;Copyright 2021 <a href="#">RGZAltamoda</a> | Creada por HermannZanetti
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
 </body>

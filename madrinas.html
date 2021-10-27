@@ -1,69 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>RGZAltamoda</title>
-        <link rel="stylesheet" href="./style.css">
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-          />
-          <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-      </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RGZAltamoda</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
 
 <body>
-  <header class="header">
-    <div class="header__logo">
-      <img src="img/LogoMakr-0WdLz5.png" alt="" />
-    </div>
+  <header>
     <div class="header__contactanos">
-      <a href="https://api.whatsapp.com/send?phone=+5493516066789" class="btn-wsp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=+5493516066789" class="btn-wsp"><i class="fab fa-whatsapp"></i></a">
     </div>
-    <div>
-      <nav class="header__menu">
-        <ul>
-          <li><a href="./index.html">inicio</a></li>
-          <li><a href="./novias.html">novias</a></li>
-          <li><a href="./madrinas.html">madrinas</a></li>
-          <li><a href="./fiesta.html">fiesta</a></li>
-          <li><a href="./contacto.html">contacto</a></li>
-        </ul>
-      </nav>
+    <div class="container">
+      <div class="row">
+        <a class="nav__link" class="logo" href="./index.html"><img src="img/LogoMakr-0WdLz5.png" alt="logo" /></a>
+        <nav>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="./index.html">inicio</a class="nav__link"></li
+              class="nav_item">
+            <li class="nav__item"><a class="nav__link" href="./novias.html">novias</a class="nav__link"></li
+              class="nav_item">
+            <li class="nav__item"><a class="nav__link" href="./madrinas.html">madrinas</a class="nav__link"></li
+              class="nav_item">
+            <li class="nav__item"><a class="nav__link" href="./fiesta.html">fiesta</a class="nav__link"></li
+              class="nav_item">
+            <li class="nav__item"><a class="nav__link" href="./contacto.html">contacto</a class="nav__link"></li
+              class="nav_item">
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
-    <main>
-        <section>
-            <div>
-                <p>
-                    Les presentamos una selección soñada de madrinas, cada una con su
-                    diseño único de nuestra colección ready to wear. Todos nuestros
-                    vestidos tienen un trabajo en equipo muy artesanal para lograr las
-                    diferentes combinaciones de géneros y texturas. Pasen y vean.
-                </p>
-            </div>
-        </section>
-        <section>
-            <img src="./img/madrina1.jpg" alt="madrina1" />
-            <img src="./img/madrina2.jpg" alt="madrina2" />
-            <img src="./img/madrina3.jpg" alt="madrina3" />
-            <br />
-            <img src="./img/madrina4.jpg" alt="madrina4" />
-            <img src="./img/madrina5.jpg" alt="madrina5" />
-            <img src="./img/madrina6.jpg" alt="madrina6" />
-        </section>
-    </main>
-    <footer class="">
-        <a href=""><i class="fab fa-facebook-square"></i></a>
-        <a href=""><i class="fab fa-instagram-square"></i></a>
-        <a href=""><i class="fab fa-twitter-square"></i></a>
-        © Copyright 2021 RGZAltamoda | Creada por HermannZanetti
-      </footer>
+  <main>
+    <div class="container">
+      <section>
+        <div>
+          <p>
+            Les presentamos una selección soñada de madrinas, cada una con su
+            diseño único de nuestra colección ready to wear. Todos nuestros
+            vestidos tienen un trabajo en equipo muy artesanal para lograr las
+            diferentes combinaciones de géneros y texturas. Pasen y vean.
+          </p>
+        </div>
+      </section>
+      <div class="gallery-container">
+        <div class="gallery__item">
+          <img src="./img/madrina1.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="./img/madrina2.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="./img/madrina3.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="./img/madrina4.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="./img/madrina5.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="./img/madrina6.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="./img/madrina7.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="./img/madrina8.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="gallery__item">
+          <img src="./img/madrina9.jpg" alt="" class="gallery__img">
+        </div>
+      </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-sm">
+      <div class="container">
+        <div class="row footer-sm__icons">
+          <div class="col">
+            <div class="col">Buscanos en las redes</div>
+            <a href=""><i class="fab fa-facebook-square"></i></a class="nav__link">
+            <a href=""><i class="fab fa-instagram-square"></i></a class="nav__link">
+            <a href=""><i class="fab fa-twitter-square"></i></a class="nav__link">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row footer-bottom__copyright">
+          <div class="col">
+            &copy;Copyright 2021 <a href="#">RGZAltamoda</a> | Creada por HermannZanetti
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
